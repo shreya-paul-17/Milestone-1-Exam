@@ -1,0 +1,42 @@
+/* body{
+    background-image:url(gray-bg.jpg),url(blue-bg.avif);
+    background-position:left , right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 500px;
+    width: 50%;
+    height: 100%;
+} */
+
+nav {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
+}
+
+nav img {
+    width: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 30px;
+    color: #000;
+}
+
+nav a:hover {
+    color:#ff4500;
+    font-weight: bold;
+}
+
+nav button {
+    margin-left: 60%;
+    padding: 20px 0px;
+    border: 2px solid black;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
