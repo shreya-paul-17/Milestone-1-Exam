@@ -1,30 +1,28 @@
-/* body{
-    background-image:url(gray-bg.jpg),url(blue-bg.avif);
-    background-position:left , right;
-    background-repeat: no-repeat, no-repeat;
-    background-size: 500px;
-    width: 50%;
-    height: 100%;
-} */
-
 nav {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3,1fr);
     align-items: center;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
 }
 
 nav img {
     width: 50px;
+    height: 50px;
+    padding-top: 20px;
+} 
+
+nav h2{
+    font-weight: bolder;
+    padding-top: 12px;
+    padding-left: 20px;
 }
 
 nav a {
     text-decoration: none;
-    padding-right: 30px;
-    color: #000;
+    color: #a2a2a2;
 }
 
 nav a:hover {
@@ -40,3 +38,29 @@ nav button {
     color: #000;
     font-weight: bold;
 }
+
+.logo-section{
+    display:flex;
+}
+
+.links{
+    padding-top: 12px;
+}
+
+.home{
+    color: #ff4500;
+    font-weight: bold;
+    margin-left: -50px;
+    padding-right: 70px;
+}
+
+.about{
+    padding-right: 70px;
+}
+
+.features{
+    padding-right: 60px;
+}
+
+
+
