@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="section-1">
+        <nav>
+            <h2>BrandName</h2>
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">Product</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact</a>
+            </div>
+            <button type="button">Get Quote Now &#8594;</button>
+        </nav>
+        <section class="main-section">
+            <div class="description-container">
+                <h1>Meet the Best Hospital</h1>
+                <p>We know how large objects will act,<br> but things on a small scale.</p>
+                <button class="button-1" type="button">Get Quote Now</button>
+                <button class="button-2" type="button">Learn More</button>
+            </div>
+            <form action="action" class="form-section">
+                <h1>Book Appointment</h1>
+                <div class="information-section">
+                    <label for="name">Name*</label><br>
+                    <input type="text" name="name" placeholder="Full Name*" id="name" required><br>
+                    <label for="email">Email address*</label><br>
+                    <input type="email" name="email" placeholder="example@gmail.com" id="email" required><br>
+                    <label for="dept">Department*</label><br>
+                    <select name="dept" id="dept" required>
+                        <option value="--department-selection--">Please Select</option>
+                        <option value="dept-section-1">Oncology</option>
+                        <option value="dept-section-2">Cardiology</option>
+                        <option value="dept-section-3">Neurology</option>
+                        <option value="dept-section-4">Opthalmology</option>
+                        <option value="dept-section-5">Psychiatry</option>
+                        <option value="dept-section-6">Pediatrics</option>
+                    </select>
+                    <br>
+                    <label for="time">Time*</label><br>
+                    <select name="time" id="time" required>
+                        <option value="--time-selection--">Please Select</option>
+                        <option value="time-slot-1">4:00 Available</option>
+                        <option value="time-slot-2">5:00 Unavailable</option>
+                        <option value="time-slot-3">6:00 Unavailable</option>
+                        <option value="time-slot-4">7:00 Available</option>
+                        <option value="time-slot-5">8:00 Available</option>
+                        <option value="time-slot-6">9:00 Unavailable</option>
+                    </select>
+                    <br>
+                    <button type="button">Book Appointment</button>
+                </div>
+            </form>
+        </section>
+    </section>
+</body>
+</html>

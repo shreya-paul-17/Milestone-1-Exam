@@ -1,0 +1,174 @@
+.section-1{
+    width: 100%;
+    height: 100%;
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+nav {
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
+}
+
+nav h2{
+    font-weight: bolder;
+    padding-left: 20px;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover {
+    color:#1987f6;
+    font-weight: bold;
+}
+
+nav button {
+    margin-left: 60%;
+    padding: 20px 0px;
+    border: 2px solid #2790f9;
+    border-radius: 5px;
+    background-color: #2790f9;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav>button:hover{
+    background-color:#1987f6 ;
+    cursor: pointer;
+}
+
+.links{
+    margin-left: -36%;
+}
+
+.links>a{
+    padding-right: 20px;
+}
+
+.main-section{
+    max-width: 1300px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-container{
+    width: 500px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+
+.description-container>h1{
+    font-size:70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}
+
+.description-container>p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    margin-top:-20px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.description-container>.button-1{
+    padding: 20px 0px;
+    margin-right: 10px;
+    border: 2px solid #2790f9;
+    border-radius: 80px;
+    background-color: #2790f9;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 170px;
+}
+
+.description-container>.button-1:hover{
+    background-color: #1987f6;
+    cursor: pointer;
+}
+
+.description-container>.button-2{
+    padding: 20px 0px;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    border-radius: 80px;
+    background-color: transparent;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 170px;
+}
+
+.description-container>.button-2:hover{
+    border-color: #000000;
+    color: #000000;
+    cursor: pointer;
+}
+
+.form-section{
+    width: 400px;
+    height: 100vh;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin-left: auto;
+    background-color: #fff;
+}
+
+.form-section>h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1px;
+    margin-top: 35px;
+}
+
+.information-section{
+    padding: 30px;
+}
+
+.information-section>label{
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.information-section>input{
+    padding-bottom: 5px;
+    margin-bottom: 45px;
+    width:330px;
+}
+
+.information-section>select{
+    margin-bottom: 45px;
+    width: 340px;
+    height: 27px;
+}
+
+.information-section>button{
+    width: 340px;
+    height: 30px;
+    background-color: #3e9bf8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.information-section>button:hover{
+    background-color: #1987f6;
+    cursor: pointer;
+}
