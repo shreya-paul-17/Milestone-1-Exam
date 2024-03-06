@@ -16,7 +16,7 @@ nav {
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
 }
 
-nav h2{
+nav>h2{
     font-weight: bolder;
     padding-left: 20px;
     color: #fff;
@@ -32,7 +32,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-nav button {
+nav>button {
     margin-left: 60%;
     padding: 20px 0px;
     border: 2px solid #2790f9;
@@ -127,60 +127,32 @@ nav>button:hover{
     border: 1px solid #ffffff;
     border-radius: 10px;
     margin-left: auto;
+    margin-bottom: 10px;
     background-color: #fff;
 }
 
 .form-section>h1{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 1px;
-    margin-top: 35px;
-}
-
-.information-section{
-   padding-left: 40px;
-}
-
-.information-section>label{
-    text-align: left;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.information-section>input{
-    padding-bottom: 5px;
-    margin-bottom: 45px;
-    width:330px;
-}
-
-.information-section>select{
-    margin-bottom: 45px;
-    width: 340px;
-    height: 27px;
-}
-
-.information-section>button{
-    width: 340px;
-    height: 30px;
-    background-color: #3e9bf8;
-    border: none;
-    border-radius: 5px;
-    color: white;
-}
-
-.information-section>button:hover{
-    background-color: #1987f6;
-    cursor: pointer;
-}
-
-.form-section>h1{
     font-size: 27px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 50px;
     margin-bottom: 40px;
 }
 
+.form-section>.information-section{
+   padding-left: 40px;
+}
+
+.form-section>.information-section>label{
+    text-align: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .form-section>.information-section>input{
+    padding-bottom: 5px;
+    margin-bottom: 45px;
+    width:330px;
     padding: 10px;
     margin-top: 15px;
     background-color:#cbcbcb64;
@@ -190,6 +162,7 @@ nav>button:hover{
 }
 
 .form-section>.information-section>select{
+    margin-bottom: 45px;
     margin-top: 15px;
     color:#7c7575fc;
     padding-left: 10px;
@@ -201,11 +174,218 @@ nav>button:hover{
 }
 
 .form-section>.information-section>button{
+    background-color: #3e9bf8;
+    border: none;
+    border-radius: 5px;
+    color: white;
     width:325px;
     height: 55px;
     margin-top: 30px;
     text-align: center;
     font-weight: bold;
-    /* word-spacing: 2px; */
+    letter-spacing: 1px;
 }
 
+.form-section>.information-section>button:hover{
+    background-color: #1987f6;
+    cursor: pointer;
+}
+
+.section-2{
+    background-color: #fff;
+}
+
+.section-2>h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.section-2>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card-1{
+    border: 1px solid #73b4f5;
+    border-radius: 10px;
+    width: 330px;
+    height: 330px;
+}
+
+.card-1>.card-section-1{
+    display: flex;
+    background-color: #73b4f5;
+    height: 100px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.card-1>.card-section-1>img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top:30px;
+    margin-left: 30px;
+}
+
+.card-1>.card-section-1>h2{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-top:39px;
+    margin-left: 20px;
+}
+
+.card-1>.card-section-2>p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: grey;
+   margin-left: 25px;
+   line-height: 35px;
+}
+
+.card-1>.card-section-2 button{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: #3e9bf8;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.card-1>.card-section-2 button:hover{
+    color: #1987f6;
+    cursor: pointer;
+} 
+
+.card-2{
+    border: 1px solid #73b4f5;
+    border-radius: 10px;
+    width: 330px;
+    height: 330px;
+}
+
+.card-2>.card-section-1{
+    display: flex;
+    background-color: #73b4f5;
+    height: 100px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.card-2>.card-section-1>img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top:30px;
+    margin-left: 30px;
+}
+
+.card-2>.card-section-1>h2{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-top:39px;
+    margin-left: 20px;
+}
+
+.card-2>.card-section-2>p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: grey;
+   margin-left: 25px;
+   line-height: 35px;
+}
+
+.card-2>.card-section-2 button{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: #3e9bf8;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.card-2>.card-section-2 button:hover{
+    color: #1987f6;
+    cursor: pointer;
+}
+
+.card-3{
+    border: 1px solid #73b4f5;
+    border-radius: 10px;
+    width: 330px;
+    height: 330px;
+}
+
+.card-3>.card-section-1{
+    display: flex;
+    background-color: #73b4f5;
+    height: 100px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+}
+
+.card-3>.card-section-1>img{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    margin-top:30px;
+    margin-left: 30px;
+}
+
+.card-3>.card-section-1>h2{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-top:39px;
+    margin-left: 20px;
+}
+
+.card-3>.card-section-2>p{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   color: grey;
+   margin-left: 25px;
+   line-height: 35px;
+}
+
+.card-3>.card-section-2 button{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    color: #3e9bf8;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.card-3>.card-section-2 button:hover{
+    color: #1987f6;
+    cursor: pointer;
+}
