@@ -193,12 +193,14 @@ nav>button:hover{
 
 .section-2{
     background-color: #fff;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .section-2>h1{
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
     font-size: 35px;
 }
 
@@ -211,13 +213,14 @@ nav>button:hover{
 .cards-container{
     display: flex;
     justify-content: center;
+    margin-top: 80px;
 }
 
 .card-1{
     border: 1px solid #73b4f5;
     border-radius: 10px;
     width: 330px;
-    height: 330px;
+    height: 350px;
 }
 
 .card-1>.card-section-1{
@@ -265,6 +268,7 @@ nav>button:hover{
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
+    margin-left: 22px;
 }
 
 .card-1>.card-section-2 button:hover{
@@ -276,7 +280,9 @@ nav>button:hover{
     border: 1px solid #73b4f5;
     border-radius: 10px;
     width: 330px;
-    height: 330px;
+    height: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .card-2>.card-section-1{
@@ -324,6 +330,7 @@ nav>button:hover{
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
+    padding-left: 28px;
 }
 
 .card-2>.card-section-2 button:hover{
@@ -335,7 +342,7 @@ nav>button:hover{
     border: 1px solid #73b4f5;
     border-radius: 10px;
     width: 330px;
-    height: 330px;
+    height: 350px;
 }
 
 .card-3>.card-section-1{
@@ -383,9 +390,53 @@ nav>button:hover{
     font-weight: bold;
     font-size: 16px;
     letter-spacing: 1px;
+    margin-left: 28px;
 }
 
 .card-3>.card-section-2 button:hover{
     color: #1987f6;
     cursor: pointer;
+}
+
+.section-3{
+    background-color:#cbcbcb64;
+    padding-top: 70px;
+    margin-bottom: 80px;
+}
+
+.section-3>h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold;
+    font-size: 35px;
+}
+
+.section-3>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+.review-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.review-container{
+    border: 1px solid #cbcbcbfc;
+    border-radius: 5px;
+    background:#ffffff;
+    width: 330px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.review-container>p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    width: 250px;
+    text-align: center;
+    margin-left: 35px;
 }
