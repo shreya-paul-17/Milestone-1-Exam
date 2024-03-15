@@ -431,12 +431,27 @@ nav>button:hover{
     height: 200px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 70px;
 }
 
 .review-container>p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: grey;
     width: 250px;
-    text-align: center;
+    text-align: left;
     margin-left: 35px;
 }
+
+.review-container>img{
+    margin-left: 35px;
+}
+
+.star-rating{
+    margin-left: 35px;
+    margin-top: 30px;
+}
+
+.star-rating>.checked{
+    color: #FFD43B;
+} 
+
