@@ -467,9 +467,32 @@ nav>button:hover{
     font-family: Arial, Helvetica, sans-serif;
     color: grey;
     margin-top: -10px;
+    margin-bottom: 70px;
 }
 
 .faq-section{
     display: grid;
-    grid-template-columns: repeat(3,1fr); 
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.faq-container{
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.faq-container>h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    margin-top: -20px;
+    margin-left: 35px;
+}
+
+.faq-container>p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: grey;
+    margin-top: -15px;
+    margin-left: 35px;
 }
