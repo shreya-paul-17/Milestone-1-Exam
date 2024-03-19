@@ -497,3 +497,249 @@ nav>button:hover{
     margin-left: 35px;
 }
 
+.section-5{
+    background-color:#cbcbcb64;
+}
+
+.section-5>h1{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    padding-top: 100px;
+}
+
+.section-5>p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    margin-top: -10px;
+    margin-bottom: 70px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.price>.free{
+    background-color: white;
+    border: 2px solid #2790f9;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+}
+
+.price>.free>h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #161414;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.price>.free>h4{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #939191;
+    width: 150px;
+    padding-left: 100px;
+}
+
+.price>.free>h1{
+    color: #2790f9;
+    text-align: left;
+    padding-left: 120px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.price>.free>h5{
+    color: #2790f9;
+    padding-left: 150px;
+    margin-top: -78px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.price>.free>.facilities{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.price>.free>.facilities>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    padding-left:50px;
+    margin-top: -20px;
+}
+
+.price>.free>button{
+    background-color:#3e9bf8;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    width: 280px;
+    height: 40px;
+}
+
+.price>.free>button:hover{
+    background-color: #1987f6;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.price>.standard{
+    background-color: #141423;
+    border: 2px solid #2790f9;
+    border-radius: 10px;
+    /* margin-bottom: -130px; */
+    width: 350px;
+    height: 500px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.price>.standard>h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.price>.standard>h4{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: #fff;
+    width: 150px;
+    padding-left: 100px;
+}
+
+.price>.standard>h1{
+    color: #2790f9;
+    text-align: left;
+    padding-left: 100px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.price>.standard>h5{
+    color: #2790f9;
+    padding-left: 188px;
+    margin-top: -78px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.price>.standard>.facilities{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.price>.standard>.facilities>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: left;
+    padding-left:50px;
+    margin-top: -20px;
+}
+
+.price>.standard>button{
+    background-color:#3e9bf8;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    width: 280px;
+    height: 40px;
+}
+
+.price>.standard>button:hover{
+    background-color: #1987f6;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.price>.premium{
+    background-color: #fff;
+    border: 2px solid #2790f9;
+    border-radius: 10px;
+    width: 350px;
+    height: 500px;
+}
+
+.price>.premium>h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.price>.premium>h4{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: grey;
+    width: 150px;
+    padding-left: 100px;
+}
+
+.price>.premium>h1{
+    color: #2790f9;
+    text-align: left;
+    padding-left: 80px;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.price>.premium>h5{
+    color: #2790f9;
+    padding-left: 190px;
+    margin-top: -78px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.price>.premium>.facilities{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.price>.premium>.facilities>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+    text-align: left;
+    padding-left:50px;
+    margin-top: -20px;
+}
+
+.price>.premium>button{
+    background-color:#3e9bf8;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    width: 280px;
+    height: 40px;
+}
+
+.price>.premium>button:hover{
+    background-color: #1987f6;
+    cursor: pointer;
+    font-weight: bold;
+}
