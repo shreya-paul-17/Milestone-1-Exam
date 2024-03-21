@@ -87,28 +87,18 @@ Welcome to the Hospital's Website Landing Page, designed to provide easy access 
 
 For the development of our hospital website landing page, we have leveraged modern web technologies to create a visually appealing and user-friendly interface. Here's an overview of the technologies utilized in our project:
 
-* HTML5 (Hypertext Markup Language)
-* CSS3 (Cascading Style Sheets)
-* <strong>Font Awesome Toolkit:</strong>
-    <ul>
-    <li>
-        [Font Awesome Toolkit](https://fontawesome.com/) is integrated into my project to enhance the visual presentation and functionality of various elements on the website.
-    </li>
-    <li>    
-        I have utilized Font Awesome icons to insert symbols such as green tick marks in the pricing section, social media logos (e.g., Facebook, Twitter, Instagram), and star ratings in the review section.
-    </li>
-    <li>
-        These icons are easily accessible and scalable, providing a seamless user experience.
-    </li>
-    </ul>
-* <strong>CDN (Content Delivery Network):</strong>
-    <ul>
-    <li>
-        I have utilized a [CDN link](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css) from `https://cdnjs.com/libraries/font-awesome` for Font Awesome Toolkit in my project, enabling me to efficiently access and integrate the required icon library into my HTML file.
-    </li>
-    <li>
-        By leveraging a CDN, we can ensure optimal performance and reliability, as the icons are served from high-speed servers distributed globally.
-    </li>
+* *HTML5 (Hypertext Markup Language)*
+* *CSS3 (Cascading Style Sheets)*
+* *Font Awesome Toolkit:*
+    - [Font Awesome Toolkit](https://fontawesome.com/) is integrated into my project to enhance the visual presentation and functionality of various elements on         the website.
+    - I have utilized Font Awesome icons to insert symbols such as green tick marks in the pricing section, social media logos (e.g., Facebook, Twitter,         
+      Instagram), and star ratings in the review section.
+    - These icons are easily accessible and scalable, providing a seamless user experience.
+* *CDN (Content Delivery Network):*
+    - I have utilized a [CDN link](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css) from `https://cdnjs.com/libraries/font-awesome` for 
+      Font Awesome Toolkit in my project, enabling me to efficiently access and integrate the required icon library into my HTML file.
+    - By leveraging a CDN, we can ensure optimal performance and reliability, as the icons are served from high-speed servers distributed globally.
+
     
 
 
