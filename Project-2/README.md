@@ -1,15 +1,15 @@
 # Project-2: Hospital Website Landing Page
 
-- Hospital Website Landing Page
+- [Hospital Website Landing Page](#hospital-website-landing-page)
     - [Problem Statement](#problem-statement)
     - [Solution](#solution)
     - [Demo Video](#demo-video)
-    - [Functionalitites](#functionalies)
-    - [Technologies Used](#tech-stack-used)
+    - [Functionalitites](#functionalities)
+    - [Technologies Used](#technologies-used)
 
 ### Problem Statement:
 
-In today's digital age, a Hospital's online presence is crucial for reaching and engaging with patients, visitors, and potential clients. A well-designed website serves as the forefront of this digital presence, often beginning with the landing page. However, even with the best intentions, Hospital Website Landing Pages can face challenges that hinder their effectiveness in attracting, informing, and converting visitors. Below, I have outlined some common problem areas that may be encountered with hospital website landing pages, along with potential solutions to address them effectively.They are follows: 
+In today's digital age, a Hospital's online presence is crucial for reaching and engaging with patients, visitors, and potential clients. A well-designed website serves as the forefront of this digital presence, often beginning with the landing page. However, even with the best intentions, Hospital Website Landing Pages can face challenges that hinder their effectiveness in attracting and informing visitors. Below, I have outlined some common problem areas that may be encountered with hospital website landing pages, along with potential solutions to address them effectively.They are follows: 
 
 * <strong>Low User Engagement:</strong> The hospital website landing page is failing to engage visitors effectively, resulting in high bounce rates and low time spent on the page.
 * <strong>Lack of Information Accessibility:</strong> Users are finding it difficult to locate essential information such as contact details, services offered, doctor profiles, and appointment scheduling options on the landing page.
@@ -52,7 +52,7 @@ In today's digital age, a Hospital's online presence is crucial for reaching and
 ### Demo Video:
 
 
-### Functionalitites:
+### Functionalities:
 
 Welcome to the Hospital's Website Landing Page, designed to provide easy access to essential features and information for our visitors. Here's a breakdown of the key functionalities that is being offered:
 
@@ -89,15 +89,29 @@ For the development of our hospital website landing page, we have leveraged mode
 
 * HTML5 (Hypertext Markup Language)
 * CSS3 (Cascading Style Sheets)
- <ul>
-    <strong>Font Awesome Toolkit:</strong>
-    
-        <li>Font Awesome Toolkit is integrated into my project to enhance the visual presentation and functionality of various elements on the website.</li>
-        
-        <li>I have utilized Font Awesome icons to insert symbols such as green tick marks in the pricing section, social media logos (e.g., Facebook, Twitter, Instagram), and star ratings in the review section.</li>
+* <strong>Font Awesome Toolkit:</strong>
+    <ul>
+    <li>
+        [Font Awesome Toolkit](https://fontawesome.com/) is integrated into my project to enhance the visual presentation and functionality of various elements on the website.
+    </li>
+    <li>    
+        I have utilized Font Awesome icons to insert symbols such as green tick marks in the pricing section, social media logos (e.g., Facebook, Twitter, Instagram), and star ratings in the review section.
+    </li>
+    <li>
+        These icons are easily accessible and scalable, providing a seamless user experience.
+    </li>
+    </ul>
+* <strong>CDN (Content Delivery Network):</strong>
+    <ul>
+    <li>
+        I have utilized a [CDN link](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css) from `https://cdnjs.com/libraries/font-awesome` for Font Awesome Toolkit in my project, enabling me to efficiently access and integrate the required icon library into my HTML file.
+    </li>
+    <li>
+        By leveraging a CDN, we can ensure optimal performance and reliability, as the icons are served from high-speed servers distributed globally.
+    </li>
+    <li>
 
-        <li>These icons are easily accessible and scalable, providing a seamless user experience.</li>
-</ul>
+
 
 
 
