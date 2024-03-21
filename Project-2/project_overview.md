@@ -1,6 +1,6 @@
 # Project-2: Hospital Website Landing Page
 
-- Hospital Website Landing Page:
+- Hospital Website Landing Page
     - [Problem Statement](#problem-statement)
     - [Solution](#solution)
     - [Demo Video](#demo-video)
