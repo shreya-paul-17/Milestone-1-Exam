@@ -1,6 +1,6 @@
 # Project-2: Hospital Website Landing Page
 
-- [Hospital Website Landing Page](#hospital-website-landing-page)
+- Hospital Website Landing Page
     - [Problem Statement](#problem-statement)
     - [Solution](#solution)
     - [Demo Video](#demo-video)
@@ -109,7 +109,7 @@ For the development of our hospital website landing page, we have leveraged mode
     <li>
         By leveraging a CDN, we can ensure optimal performance and reliability, as the icons are served from high-speed servers distributed globally.
     </li>
-    <li>
+    
 
 
 
