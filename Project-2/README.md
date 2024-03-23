@@ -30,7 +30,7 @@ In today's digital age, a Hospital's online presence is crucial for reaching and
         <strong>Information Accessibility Improvement:</strong>
         <ul>
             <li>Ensure essential information such as contact details, services offered, doctor profiles, and appointment scheduling options are easily accessible and prominently displayed.</li>
-            <li>Implement a clear and intuitive navigation menu to help users quickly find the information they need.</li>
+            <li>Implement a clear and intuitive navigation menu to help the users quickly find the information they need.</li>
         </ul>
     </li>
     <li>
