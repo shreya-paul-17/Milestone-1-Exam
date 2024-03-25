@@ -549,19 +549,23 @@ nav>button:hover{
     padding-left: 100px;
 }
 
-.price>.free>h1{
+.price>.free>.price-value{
+    margin-top: 30px;
+}
+
+.price>.free>.price-value>h1{
     color: #2790f9;
     text-align: left;
-    padding-left: 120px;
+    padding-left: 80px;
     margin-top: 10px;
     font-weight: bolder;
     font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.price>.free>h5{
+.price>.free>.price-value>h5{
     color: #2790f9;
-    padding-left: 150px;
+    padding-left: 190px;
     margin-top: -78px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
@@ -624,26 +628,29 @@ nav>button:hover{
     padding-left: 100px;
 }
 
-.price>.standard>h1{
+.price>.standard>.price-value{
+    margin-top: 30px;
+}
+
+.price>.standard>.price-value>h1{
     color: #2790f9;
     text-align: left;
     padding-left: 100px;
-    margin-top: 10px;
+    margin-top: -70px;
     font-weight: bolder;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.price>.standard>h5{
+.price>.standard>.price-value>h5{
     color: #2790f9;
-    padding-left: 188px;
-    margin-top: -78px;
+    padding-left: 190px;
+    margin-top: 5px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 
 .price>.standard>.facilities{
-    margin-top: 50px;
     margin-bottom: 40px;
 }
 
