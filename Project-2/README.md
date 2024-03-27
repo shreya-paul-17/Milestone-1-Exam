@@ -51,7 +51,7 @@ In today's digital age, a Hospital's online presence is crucial for reaching and
 
 ### Demo Video:
 
-<video controls src="https://github.com/shreya-paul-17/Milestone-1-Exam/blob/main/Project-2/Demo-Video.mp4" title="D:\Milestone-1-Exam\Project-2\Demo-Video.mp4"></video>
+https://github.com/shreya-paul-17/Milestone-1-Exam/assets/135226069/9a71e2d1-59b0-4b88-a1fc-f7e0dd39f096
 
 ### Functionalities:
 
